@@ -1,0 +1,101 @@
+.stats {
+  margin-bottom: 30px;
+  background-color:transparent;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .stats-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-circle-container {
+  position: relative;
+  width: 128px;
+  height: 128px;
+  margin: 0 auto 16px;
+}
+
+.stat-circle-bg {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  opacity: 0.7;
+}
+
+.pink-bg {
+  background-color: var(--pink);
+}
+
+.lavender-bg {
+  background-color: var(--lavender);
+}
+
+.blue-bg {
+  background-color: var(--light-blue);
+}
+
+.stat-circle-inner {
+  position: absolute;
+  inset: 8px;
+  background-color: var(--white);
+  border-radius: 50%;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.stat-value-container {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stat-value {
+  font-size: 2.5rem;
+  font-weight: 700;
+  opacity: 0;
+  transform: scale(0.5);
+  transition: opacity 1s ease, transform 0.5s ease;
+}
+
+.stat-value.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.pink-stat {
+  background: linear-gradient(to right, rgb(250, 112, 135), pink);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.lavender-stat {
+  background: linear-gradient(to right,purple, var(--lavender));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.blue-stat {
+  background: linear-gradient(to right,blue, var(--light-blue));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.stat-label {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--gray-700);
+}
