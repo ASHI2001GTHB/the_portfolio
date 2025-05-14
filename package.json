@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
@@ -36,8 +37,19 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "ajv": "^7.2.4",
-    "gh-pages": "^6.3.0"
-  }
+ 
+  
+    "devDependencies": {
+      "gh-pages": "^6.3.0"
+    },
+    "homepage": "https://github.com/ASHI2001GTHB/portfolio.git",
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+    }
+  
 }
