@@ -11,8 +11,8 @@ function Projects() {
       title: "WanderLust",
       description:
         "A beautiful travel agency landing page using just HTML, CSS, and vanilla JavaScript. This will include smooth animations, scrolling effects, and a booking form",
-      image: "/images/projects/WanderLust.png?height=300&width=500",
-      video: "/videos/Wanderlust.mp4?autoplay = 1& height=400&width=700",
+      image: "./images/projects/WanderLust.png?height=300&width=500",
+      video: "./videos/Wanderlust.mp4?autoplay = 1& height=400&width=700",
       github: "https://github.com/your-username/project-2",
       demo: "https://demo-link.com/project-2",
       technologies: ["HTML", "CSS", "JavaScript"],
@@ -22,8 +22,8 @@ function Projects() {
       title: "Bubble Drop",
       description:
         "A Flutter app for student event alerts with real-time notifications and sorting. This application helps students stay updated with college events, deadlines, and important announcements.",
-      image: "/images/projects/Bubble_Drop.png?height=300&width=500",
-      video: "/videos/Bubble_Drop.mp4?height=400&width=700",
+      image: "./images/projects/Bubble_Drop.png?height=300&width=500",
+      video: "./videos/Bubble_Drop.mp4?height=400&width=700",
       github: "https://github.com/your-username/project-1",
       demo: "https://demo-link.com/project-1",
       technologies: ["HTML", "Tailwind CSS", "JS"],
@@ -33,8 +33,8 @@ function Projects() {
       title: "Rock-Paper-Scissors Web-Game",
       description:
         "This is a classic Rock, Paper, Scissors game with animations, score tracking, and a match history feature, where you play against the computer. The first player to reach 5 points wins the game.",
-      image: "/images/Projects/Rock-Paper-Scissor.png?height=300&width=500",
-      video: "/videos/Rock Paper Scissors.mp4?height=400&width=700",
+      image: "./images/Projects/Rock-Paper-Scissor.png?height=300&width=500",
+      video: "./videos/Rock Paper Scissors.mp4?height=400&width=700",
       github: "https://github.com/your-username/project-3",
       demo: "https://demo-link.com/project-3",
       technologies: ["HTML", "CSS", "JavaScript"],
@@ -42,8 +42,8 @@ function Projects() {
     {
       id: 4,
       title: "BookNest - Online Bookstore",
-      image: "/images/projects/Booknest.png?height=300&width=500",
-      video: "/videos/Booknest-OnlineBookshop.mp4?height=400&width=700",
+      image: "./images/projects/Booknest.png?height=300&width=500",
+      video: "./videos/Booknest-OnlineBookshop.mp4?height=400&width=700",
       github: "https://github.com/ASHI2001GTHB/online-bookshop",
       demo: "https://demo-link.com/project-4",
       technologies: ["React", "Express", "MongoDB", "Node.js"],
@@ -73,23 +73,13 @@ function Projects() {
       title: "Todo List Web App",
       description:
         "This is a simple and modern To-Do List web application allows users to:Add new tasks,Mark tasks as completed,Delete tasks from the list.The application features a clean user interface with a responsive card design and a gradient background. Tasks are dynamically added to the DOM and styled accordingly using JavaScript and CSS transitions. It’s a great beginner-friendly project to understand DOM manipulation and user interaction in web development.",
-      image: "/images/Projects/todoweb.png?height=300&width=500",
-      video: "/videos/To-Do List.mp4?height=400&width=700",
+      image: "./images/Projects/todoweb.png?height=300&width=500",
+      video: "./videos/To-Do List.mp4?height=400&width=700",
       github: "https://github.com/your-username/project-3",
       demo: "https://demo-link.com/project-3",
       technologies: ["HTML", "CSS", "JavaScript"],
     },
-    {
-      id: 6,
-      title: "Task Management Tool",
-      description:
-        "A collaborative task management tool that helps teams organize and track their projects efficiently. This tool includes features like task assignment, progress tracking, and deadline notifications.",
-      image: "/placeholder.svg?height=300&width=500",
-      video: "/placeholder.svg?height=400&width=700",
-      github: "https://github.com/your-username/project-6",
-      demo: "https://demo-link.com/project-6",
-      technologies: ["React", "Firebase", "Tailwind CSS"],
-    },
+    
   ])
 
   const [selectedProject, setSelectedProject] = useState(null)
