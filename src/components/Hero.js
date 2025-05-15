@@ -75,7 +75,7 @@ function Hero() {
             <div className="image-background"></div>
             <div className="image-wrapper">
               <img
-                src="/images/ashini.png"
+                src="./images/ashini.png"
                 alt="Ashini Manawasinghe"
                 className="hero-image"
               />
