@@ -11,7 +11,7 @@ function Projects() {
       title: "WanderLust",
       description:
         "A beautiful travel agency landing page using just HTML, CSS, and vanilla JavaScript. This will include smooth animations, scrolling effects, and a booking form",
-      image: "./images/projects/WanderLust.png?height=300&width=500",
+      image: "../images/projects/WanderLust.png?height=300&width=500",
       video: "./videos/Wanderlust.mp4?autoplay = 1& height=400&width=700",
       github: "https://github.com/your-username/project-2",
       demo: "https://demo-link.com/project-2",
@@ -22,7 +22,7 @@ function Projects() {
       title: "Bubble Drop",
       description:
         "A Flutter app for student event alerts with real-time notifications and sorting. This application helps students stay updated with college events, deadlines, and important announcements.",
-      image: "./images/projects/Bubble_Drop.png?height=300&width=500",
+      image: "../images/projects/Bubble_Drop.png?height=300&width=500",
       video: "./videos/Bubble_Drop.mp4?height=400&width=700",
       github: "https://github.com/your-username/project-1",
       demo: "https://demo-link.com/project-1",
