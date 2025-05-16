@@ -12,10 +12,10 @@ function Hero() {
     <header className="hero">
       <div className="nav-container" id="navbar">
         <nav className="nav">
-          <button className="hamburger" onClick={toggleMenu}>
-            <span className="bar"></span>
-            <span className="bar"></span>
-            <span className="bar"></span>
+          <button class="hamburger" id="hamburger" onClick={toggleMenu}>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
           </button>
           <ul className={`nav-list ${isMenuOpen ? "open" : ""}`}>
             <li className="nav-item">

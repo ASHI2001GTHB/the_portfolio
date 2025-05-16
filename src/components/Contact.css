@@ -125,3 +125,7 @@
   height: 24px;
   color: var(--pink-dark);
 }
+.email{
+  font-size: 0.7rem;
+  font-weight: 200;
+}

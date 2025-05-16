@@ -76,7 +76,7 @@ function Contact() {
             <h3 className="contact-info-title">Join me here</h3>
 
             <div className="contact-links">
-              <a href="mailto:your-email@example.com" className="contact-link">
+              <a href="mailto:ashinisaubhagyamanawasinghe@gmail.com" className="contact-link">
                 <div className="contact-icon-container">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +93,7 @@ function Contact() {
                     />
                   </svg>
                 </div>
-                <span>ashinisaubhagyamanawasinghe@gmail.com</span>
+                <span className="email">ashinisaubhagyamanawasinghe@gmail.com</span>
               </a>
 
               <a
