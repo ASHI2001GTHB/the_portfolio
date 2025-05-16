@@ -16,15 +16,15 @@ function About() {
               </p>
               <p>
                 I love crafting beautiful and responsive user interfaces using
-                <span className="highlight"> HTML, CSS, JavaScript, React, and Flutter</span>. I also have experience in{" "}
-                <span className="highlight">UI/UX design, Firebase integration, and Git</span>.
+                <span className="highlight"> HTML, CSS, JavaScript, React</span>. I also have experience in{" "}
+                <span className="highlight">UI/UX design, Flutter, and Firebase integration</span>.
               </p>
               <p>
-                Currently, I'm focused on building creative and functional web and mobile apps, and I enjoy learning new
+                Currently, I'm focused on building creative and functional web projects, and I enjoy learning new
                 technologies that push the boundaries of design and interactivity ✨
               </p>
               <p>
-                When I'm not coding, you can find me exploring K-pop aesthetics, sketching UI ideas, or sipping on iced
+                When I'm not coding, you can find me creating K-pop videos, sketching UI ideas, or sipping on iced
                 coffee ☕
               </p>
             </div>
