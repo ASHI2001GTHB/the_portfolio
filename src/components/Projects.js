@@ -42,8 +42,8 @@ function Projects() {
     {
       id: 4,
       title: "BookNest - Online Bookstore",
-      image: "./images/Projects/Booknest.png?height=300&width=500",
-      video: "./videos/Booknest-OnlineBookshop.mp4?height=400&width=700",
+      image: "./images/Projects/BookNest.png?height=300&width=500",
+      video: "./videos/BookNest.mp4?height=400&width=700",
       github: "https://github.com/ASHI2001GTHB/online-bookshop",
       demo: "https://demo-link.com/project-4",
       technologies: ["React", "Express", "MongoDB", "Node.js"],
