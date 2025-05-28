@@ -5,42 +5,8 @@ import "./Projects.css"
 
 function Projects() {
   const [projects] = useState([
-    
     {
       id: 1,
-      title: "WanderLust",
-      description:
-        "A beautiful travel agency landing page using just HTML, CSS, and vanilla JavaScript. This will include smooth animations, scrolling effects, and a booking form",
-      image: "./images/Projects/WanderLust.png?height=300&width=500",
-      video: "./videos/Wanderlust.mp4?autoplay = 1& height=400&width=700",
-      github: "https://github.com/your-username/project-2",
-      demo: "https://demo-link.com/project-2",
-      technologies: ["HTML", "CSS", "JavaScript"],
-    },
-    {
-      id: 2,
-      title: "Bubble Drop",
-      description:
-        "A Flutter app for student event alerts with real-time notifications and sorting. This application helps students stay updated with college events, deadlines, and important announcements.",
-      image: "./images/Projects/Bubble_Drop.png?height=300&width=500",
-      video: "./videos/Bubble_Drop.mp4?height=400&width=700",
-      github: "https://github.com/your-username/project-1",
-      demo: "https://demo-link.com/project-1",
-      technologies: ["HTML", "Tailwind CSS", "JS"],
-    },
-    {
-      id: 3,
-      title: "Rock-Paper-Scissors Web-Game",
-      description:
-        "This is a classic Rock, Paper, Scissors game with animations, score tracking, and a match history feature, where you play against the computer. The first player to reach 5 points wins the game.",
-      image: "./images/Projects/Rock-Paper-Scissor.png?height=300&width=500",
-      video: "./videos/Rock Paper Scissors.mp4?height=400&width=700",
-      github: "https://github.com/your-username/project-3",
-      demo: "https://demo-link.com/project-3",
-      technologies: ["HTML", "CSS", "JavaScript"],
-    },
-    {
-      id: 4,
       title: "BookNest - Online Bookstore",
       image: "./images/Projects/BookNest.png?height=300&width=500",
       video: "./videos/BookNest.mp4?height=400&width=700",
@@ -69,7 +35,52 @@ function Projects() {
       
     },
     {
+      id: 2,
+      title: "WanderLust",
+      description:
+        "A beautiful travel agency landing page using just HTML, CSS, and vanilla JavaScript. This will include smooth animations, scrolling effects, and a booking form",
+      image: "./images/Projects/WanderLust.png?height=300&width=500",
+      video: "./videos/Wanderlust.mp4?autoplay = 1& height=400&width=700",
+      github: "https://github.com/your-username/project-2",
+      demo: "https://demo-link.com/project-2",
+      technologies: ["HTML", "CSS", "JavaScript"],
+    },
+    {
+      id: 3,
+      title: "Bubble Drop",
+      description:
+        "A Flutter app for student event alerts with real-time notifications and sorting. This application helps students stay updated with college events, deadlines, and important announcements.",
+      image: "./images/Projects/Bubble_Drop.png?height=300&width=500",
+      video: "./videos/Bubble_Drop.mp4?height=400&width=700",
+      github: "https://github.com/your-username/project-1",
+      demo: "https://demo-link.com/project-1",
+      technologies: ["HTML", "Tailwind CSS", "JS"],
+    },
+    {
+      id: 4,
+      title: "Rock-Paper-Scissors Web-Game",
+      description:
+        "This is a classic Rock, Paper, Scissors game with animations, score tracking, and a match history feature, where you play against the computer. The first player to reach 5 points wins the game.",
+      image: "./images/Projects/Rock-Paper-Scissor.png?height=300&width=500",
+      video: "./videos/Rock Paper Scissors.mp4?height=400&width=700",
+      github: "https://github.com/your-username/project-3",
+      demo: "https://demo-link.com/project-3",
+      technologies: ["HTML", "CSS", "JavaScript"],
+    },
+    {
       id: 5,
+      title: "The Image Gallery",
+      description:
+        "This is a simple and modern web-site displaying a collection of images. It allows users to navigate through the gallery and view detailed information about each image.",
+      image: "./images/Projects/image-gallery.png?height=300&width=500",
+      video: "./videos/image-gallery.mp4?height=400&width=700",
+      github: "https://github.com/ASHI2001GTHB/photo-gallery",
+      demo: "https://photo-gallery-by-ashi.netlify.app/",
+      technologies: ["jquery", "HTML", "CSS", "JavaScript"],
+    },
+    
+    {
+      id: 6,
       title: "Todo List Web App",
       description:
         "This is a simple and modern To-Do List web application allows users to:Add new tasks,Mark tasks as completed,Delete tasks from the list.The application features a clean user interface with a responsive card design and a gradient background. Tasks are dynamically added to the DOM and styled accordingly using JavaScript and CSS transitions. It’s a great beginner-friendly project to understand DOM manipulation and user interaction in web development.",
