@@ -53,7 +53,7 @@ function Projects() {
       image: "./images/Projects/Bubble_Drop.png?height=300&width=500",
       video: "./videos/Bubble_Drop.mp4?height=400&width=700",
       github: "https://github.com/your-username/project-1",
-      demo: "https://demo-link.com/project-1",
+      demo: "https://bubble-drop.netlify.app/",
       technologies: ["HTML", "Tailwind CSS", "JS"],
     },
     {
@@ -86,6 +86,17 @@ function Projects() {
         "This is a simple and modern To-Do List web application allows users to:Add new tasks,Mark tasks as completed,Delete tasks from the list.The application features a clean user interface with a responsive card design and a gradient background. Tasks are dynamically added to the DOM and styled accordingly using JavaScript and CSS transitions. It’s a great beginner-friendly project to understand DOM manipulation and user interaction in web development.",
       image: "./images/Projects/todoweb.png?height=300&width=500",
       video: "./videos/To-Do List.mp4?height=400&width=700",
+      github: "https://github.com/your-username/project-3",
+      demo: "https://demo-link.com/project-3",
+      technologies: ["HTML", "CSS", "JavaScript"],
+    },
+    {
+      id: 7,
+      title: "Weather App",
+      description:
+        "This is a simple and modern Weather App that allows users to search for the current weather conditions in any city. It uses the OpenWeatherMap API to fetch real-time weather data and displays it in a user-friendly interface.",
+      image: "./images/Projects/weatherapp.png?height=300&width=500",
+      video: "./videos/weather-app.mp4?height=400&width=700",
       github: "https://github.com/your-username/project-3",
       demo: "https://demo-link.com/project-3",
       technologies: ["HTML", "CSS", "JavaScript"],
