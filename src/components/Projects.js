@@ -99,17 +99,6 @@ function Projects() {
       technologies: ["HTML", "CSS", "JavaScript"],
     },
     {
-      id: 8,
-      title: "Weather App",
-      description:
-        "This is a simple and modern Weather App that allows users to search for the current weather conditions in any city. It uses the OpenWeatherMap API to fetch real-time weather data and displays it in a user-friendly interface.",
-      image: "./images/Projects/weatherapp.png?height=300&width=500",
-      video: "./videos/weather-app.mp4?height=400&width=700",
-      github: "https://github.com/your-username/project-3",
-      demo: "https://demo-link.com/project-3",
-      technologies: ["HTML", "CSS", "JavaScript"],
-    },
-    {
       id: 9,
       title: "Sellx - E-commerce Website UI",
       description:
