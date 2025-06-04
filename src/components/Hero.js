@@ -47,7 +47,7 @@ function Hero() {
           <div className="hero-text">
             <h2 className="hero-subtitle">Hi, I am</h2>
             <h1 className="hero-title fade-in">Ashini Manawasinghe</h1>
-            <h3 className="hero-description typing">Front-end designer from Sri Lanka</h3>
+            <h3 className="hero-description typing">Software Engineer from Sri Lanka</h3>
             <button
               className="btn btn-primary"
               onClick={() => window.open("/Resume.pdf", "_blank")}

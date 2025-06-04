@@ -58,6 +58,16 @@ function Projects() {
     },
     {
       id: 4,
+      title: "PixelPulse Digital Agency",
+      description:
+        "This is a modern and responsive digital agency website built with HTML, CSS, and JavaScript. It features a clean design, smooth animations, and a user-friendly interface.",
+      image: "./images/Projects/PixelPulse.png?height=300&width=500",
+      video: "./videos/PixelPulse.mp4?height=400&width=700",
+      demo: "https://pixel-pulse-by-ashi.netlify.app/",
+      technologies: ["Bootstrap", "HTML", "CSS", "JavaScript"],
+    },
+    {
+      id: 5,
       title: "Rock-Paper-Scissors Web-Game",
       description:
         "This is a classic Rock, Paper, Scissors game with animations, score tracking, and a match history feature, where you play against the computer. The first player to reach 5 points wins the game.",
@@ -67,7 +77,7 @@ function Projects() {
       technologies: ["HTML", "CSS", "JavaScript"],
     },
     {
-      id: 5,
+      id: 6,
       title: "The Image Gallery",
       description:
         "This is a simple and modern web-site displaying a collection of images. It allows users to navigate through the gallery and view detailed information about each image.",
@@ -79,7 +89,7 @@ function Projects() {
     },
     
     {
-      id: 6,
+      id: 7,
       title: "Todo List Web App",
       description:
         "This is a simple and modern To-Do List web application allows users to:Add new tasks,Mark tasks as completed,Delete tasks from the list.The application features a clean user interface with a responsive card design and a gradient background. Tasks are dynamically added to the DOM and styled accordingly using JavaScript and CSS transitions. It’s a great beginner-friendly project to understand DOM manipulation and user interaction in web development.",
@@ -89,7 +99,7 @@ function Projects() {
       technologies: ["HTML", "CSS", "JavaScript"],
     },
     {
-      id: 7,
+      id: 8,
       title: "Weather App",
       description:
         "This is a simple and modern Weather App that allows users to search for the current weather conditions in any city. It uses the OpenWeatherMap API to fetch real-time weather data and displays it in a user-friendly interface.",
@@ -99,6 +109,17 @@ function Projects() {
       demo: "https://demo-link.com/project-3",
       technologies: ["HTML", "CSS", "JavaScript"],
     },
+    {
+      id: 9,
+      title: "Sellx - E-commerce Website UI",
+      description:
+        "This is a modern and responsive e-commerce website UI built with figma. It features a clean design, smooth animations, and a user-friendly interface.",
+      image: "./images/Projects/portfolio.png?height=300&width=500",
+      video: "./videos/portfolio.mp4?height=400&width=700",
+      demo: "https://www.figma.com/design/lcwpMcA7SnIybp8hucxCAN/SellX?node-id=11-9&t=AJwEtEmW6G7Gc5Ds-0",
+      technologies: ["Figma"],
+    },
+    
     
   ])
 
@@ -241,6 +262,7 @@ function Projects() {
                     </svg>
                     Live Demo
                   </a>
+                  
                 </div>
 
                 <div className="modal-navigation">

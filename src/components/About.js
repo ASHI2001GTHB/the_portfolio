@@ -17,7 +17,7 @@ function About() {
               <p>
                 I love crafting beautiful and responsive user interfaces using
                 <span className="highlight"> HTML, CSS, JavaScript, React</span>. I also have experience in{" "}
-                <span className="highlight">UI/UX design, Flutter, and Firebase integration</span>.
+                <span className="highlight">UI/UX design, Flutter,Firebase and MERN</span>.
               </p>
               <p>
                 Currently, I'm focused on building creative and functional web projects, and I enjoy learning new

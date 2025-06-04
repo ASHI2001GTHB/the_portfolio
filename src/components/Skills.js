@@ -9,6 +9,7 @@ function Skills() {
     { name: "CSS", percentage: 90, icon: "images/css.png?height=50&width=50" },
     { name: "JavaScript", percentage: 85, icon: "images/javascript.png?height=50&width=50" },
     { name: "React", percentage: 80, icon: "images/react.png?height=50&width=50" },
+    { name: "MongoDB", percentage: 50, icon: "images/mongodb.png?height=50&width=50" },
     { name: "Flutter", percentage: 75, icon: "images/flutter.png?height=50&width=50" },
     { name: "Firebase", percentage: 70, icon: "images/fb.png?height=50&width=50" },
     { name: "Figma", percentage: 80, icon: "images/figma.png?height=50&width=50" },
