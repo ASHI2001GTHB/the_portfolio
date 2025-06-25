@@ -115,13 +115,51 @@ function Projects() {
       title: "Sellx - E-commerce Website UI",
       description:
         "This is a modern and responsive e-commerce website UI built with figma. It features a clean design, smooth animations, and a user-friendly interface.",
-      image: "./images/Projects/sellx.png?height=300&width=500",
+      image: "./images/Projects/Sellx.png?height=300&width=500",
       video: "./videos/Sellx.mp4?height=400&width=700",
       demo: "https://www.figma.com/design/lcwpMcA7SnIybp8hucxCAN/SellX?node-id=11-9&t=AJwEtEmW6G7Gc5Ds-0",
       technologies: ["Figma"],
     },
-    
-    
+    {
+      id: 10,
+      title: "Study Go- Tution class App UI",
+      description:
+        "This is a modern and responsive e-commerce website UI built with figma. It features a clean design, smooth animations, and a user-friendly interface.",
+      image: "./images/Projects/StdyGo-UI.png?height=300&width=500",
+      video: "",
+      demo: "https://www.figma.com/design/2mdYYrT2tX5VdvlZtiNkQY/Mobile-Project?node-id=0-1&p=f&t=tSc65uagIGN4Ey2C-0",
+      technologies: ["Figma"],
+    },
+    {
+      id: 11,
+      title: "Study Go- Tution class App UI",
+      description:
+        "This is a modern and responsive e-commerce website UI built with figma. It features a clean design, smooth animations, and a user-friendly interface.",
+      image: "./images/Projects/StudyGo-UI.png?height=300&width=500",
+      video: "",
+      demo: "https://www.figma.com/design/2mdYYrT2tX5VdvlZtiNkQY/Mobile-Project?node-id=0-1&p=f&t=tSc65uagIGN4Ey2C-0",
+      technologies: ["Figma"],
+    },
+    {
+      id: 12,
+      title: "SUN LANKA - E-commerce Website UI",
+      description:
+        "This is a modern and responsive e-commerce website UI built with figma. It features a clean design, smooth animations, and a user-friendly interface.",
+      image: "./images/Projects/SunLanka-UI.png?height=300&width=500",
+      video: "",
+      demo: "https://www.figma.com/design/um1tUlxtBey4HMTirpiloX/Sun-Lanka-WEB?node-id=0-1&p=f&t=sioeMIJszvuygWHp-0",
+      technologies: ["Figma"],
+    },
+    {
+      id: 13,
+      title: "SUN LANKA - SMS UI",
+      description:
+        " This is a modern and responsive e-commerce website UI built with figma. It features a clean design, smooth animations, and a user-friendly interface.",
+      image: "./images/Projects/SunLankaSMS-UI.png?height=300&width=500",
+      video: "",
+      demo: "https://www.figma.com/design/xRY9ZnTxtQDNWHUlwIr58l/Student-management-system-Sun-Lanka?node-id=6-3&p=f&t=sioeMIJszvuygWHp-0",
+      technologies: ["Figma"],
+    },
   ])
 
   const [selectedProject, setSelectedProject] = useState(null)
