@@ -36,6 +36,17 @@ function Projects() {
     },
     {
       id: 2,
+      title: "Smart Navigator",
+      description:
+        "A web application that helps users find the best routes for their journeys. It provides real-time traffic updates, route suggestions, and distance calculations to ensure a smooth travel experience.",
+      image: "./images/Projects/smart-navigator.png?height=300&width=500",
+      video: "./videos/Smart-navigator.mp4?autoplay = 1& height=400&width=700",
+      github: "",
+      demo: "",
+      technologies: ["Next.js", "Tailwind CSS", "JavaScript"],
+    },
+    {
+      id: 3,
       title: "WanderLust",
       description:
         "A beautiful travel agency landing page using just HTML, CSS, and vanilla JavaScript. This will include smooth animations, scrolling effects, and a booking form",
@@ -46,7 +57,7 @@ function Projects() {
       technologies: ["HTML", "CSS", "JavaScript"],
     },
     {
-      id: 3,
+      id: 4,
       title: "Bubble Drop",
       description:
         "A Flutter app for student event alerts with real-time notifications and sorting. This application helps students stay updated with college events, deadlines, and important announcements.",
@@ -57,7 +68,7 @@ function Projects() {
       technologies: ["HTML", "Tailwind CSS", "JS"],
     },
     {
-      id: 4,
+      id: 5,
       title: "PixelPulse Digital Agency",
       description:
         "This is a modern and responsive digital agency website built with HTML, CSS, and JavaScript. It features a clean design, smooth animations, and a user-friendly interface.",
@@ -67,7 +78,7 @@ function Projects() {
       technologies: ["Bootstrap", "HTML", "CSS", "JavaScript"],
     },
     {
-      id: 5,
+      id: 6,
       title: "Rock-Paper-Scissors Web-Game",
       description:
         "This is a classic Rock, Paper, Scissors game with animations, score tracking, and a match history feature, where you play against the computer. The first player to reach 5 points wins the game.",
@@ -77,7 +88,7 @@ function Projects() {
       technologies: ["HTML", "CSS", "JavaScript"],
     },
     {
-      id: 6,
+      id: 7,
       title: "The Image Gallery",
       description:
         "This is a simple and modern web-site displaying a collection of images. It allows users to navigate through the gallery and view detailed information about each image.",
@@ -89,12 +100,13 @@ function Projects() {
     },
     
     {
-      id: 7,
+      id: 8,
       title: "Todo List Web App",
       description:
         "This is a simple and modern To-Do List web application allows users to:Add new tasks,Mark tasks as completed,Delete tasks from the list.The application features a clean user interface with a responsive card design and a gradient background. Tasks are dynamically added to the DOM and styled accordingly using JavaScript and CSS transitions. It’s a great beginner-friendly project to understand DOM manipulation and user interaction in web development.",
       image: "./images/Projects/todoweb.png?height=300&width=500",
       video: "./videos/To-Do List.mp4?height=400&width=700",
+      github: "https://github.com/ASHI2001GTHB/to-do-list",
       demo: "https://todo-list-web-app-ashi.netlify.app/",
       technologies: ["HTML", "CSS", "JavaScript"],
     },
@@ -103,8 +115,8 @@ function Projects() {
       title: "Sellx - E-commerce Website UI",
       description:
         "This is a modern and responsive e-commerce website UI built with figma. It features a clean design, smooth animations, and a user-friendly interface.",
-      image: "./images/Projects/portfolio.png?height=300&width=500",
-      video: "./videos/portfolio.mp4?height=400&width=700",
+      image: "./images/Projects/sellx.png?height=300&width=500",
+      video: "./videos/Sellx.mp4?height=400&width=700",
       demo: "https://www.figma.com/design/lcwpMcA7SnIybp8hucxCAN/SellX?node-id=11-9&t=AJwEtEmW6G7Gc5Ds-0",
       technologies: ["Figma"],
     },
