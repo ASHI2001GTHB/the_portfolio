@@ -125,23 +125,13 @@ function Projects() {
       title: "Study Go- Tution class App UI",
       description:
         "This is a modern and responsive e-commerce website UI built with figma. It features a clean design, smooth animations, and a user-friendly interface.",
-      image: "./images/Projects/StdyGo-UI.png?height=300&width=500",
-      video: "",
-      demo: "https://www.figma.com/design/2mdYYrT2tX5VdvlZtiNkQY/Mobile-Project?node-id=0-1&p=f&t=tSc65uagIGN4Ey2C-0",
-      technologies: ["Figma"],
-    },
-    {
-      id: 11,
-      title: "Study Go- Tution class App UI",
-      description:
-        "This is a modern and responsive e-commerce website UI built with figma. It features a clean design, smooth animations, and a user-friendly interface.",
       image: "./images/Projects/StudyGo-UI.png?height=300&width=500",
       video: "",
       demo: "https://www.figma.com/design/2mdYYrT2tX5VdvlZtiNkQY/Mobile-Project?node-id=0-1&p=f&t=tSc65uagIGN4Ey2C-0",
       technologies: ["Figma"],
     },
     {
-      id: 12,
+      id: 11,
       title: "SUN LANKA - E-commerce Website UI",
       description:
         "This is a modern and responsive e-commerce website UI built with figma. It features a clean design, smooth animations, and a user-friendly interface.",
@@ -151,7 +141,7 @@ function Projects() {
       technologies: ["Figma"],
     },
     {
-      id: 13,
+      id: 12,
       title: "SUN LANKA - SMS UI",
       description:
         " This is a modern and responsive e-commerce website UI built with figma. It features a clean design, smooth animations, and a user-friendly interface.",
